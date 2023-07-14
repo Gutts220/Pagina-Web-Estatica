@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- css propio -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../sass/main.css">
+    <title>Contacto</title>
+</head>
+<body>
+  <header>
+
+        <nav class="navbar navbar-expand-lg bg-color">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Bajoneando En San Juan</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link "  href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="comidas.html">comidas</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="lugares_recomendados.html">
+                        Lugares Recomendados
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">contacto</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+  </header>
+
+    <form class="contacto">
+        <h2>¡Inscribe tu restaurante en la página!</h2>
+      
+        <div class="contacto__p1">
+            <div class="contacto__p1__radios">
+              <legend>Rubro:</legend>
+              <label>
+                Restaurante:
+                <input type="radio" name="radio" value="radio1">
+                  
+              </label>
+              <label>
+                Bar:
+                <input type="radio" name="radio" value="radio2">
+                  
+              </label>
+              <label>
+                  Cafetería:
+                  <input type="radio" name="radio" value="radio3">
+                  
+              </label>
+              <label>
+                Confitería:
+                <input type="radio" name="radio" value="radio4">
+                  
+              </label>
+              <label>
+                  Otro:
+                  <input type="radio" name="radio" value="radio5">
+                  
+              </label>
+            </div>
+            
+            <div class="contacto__p1__marcador1">
+              <label>Si eligió otro introduzca cual:</label>
+              <input type="text" placeholder="Especifique aquí">
+            </div>
+            
+            <div class="contacto__p1__casillas">
+              <legend>Tipos de comida:</legend>
+
+              <label>
+                    Asiatica:
+                    <input type="checkbox" name="checkbox1" value="checkbox1">
+              </label>
+
+              <label>
+                    Regional:
+                    <input type="checkbox" name="checkbox2" value="checkbox2">
+              </label>
+
+              <label>
+                    Comida Rapida:
+                    <input type="checkbox" name="checkbox3" value="checkbox3">
+              </label>
+
+              <label>
+                    De Bodegon:
+                    <input type="checkbox" name="checkbox4" value="checkbox4">
+              </label>
+
+              <label>
+                    Otro:
+                    <input type="checkbox" name="checkbox5" value="checkbox5">
+              </label>
+            </div>
+            
+            <div class="contacto__p1__marcador2">
+              <label>Si eligió otro especifique:</label>
+              <input type="text" placeholder="Especifique aquí">
+            </div>
+
+            <button type="submit">Enviar</button>
+
+        </div>
+
+        <div class="contacto__p2">
+            <div class="contacto__p2__texto">
+                <label>Datos de Contacto de su restaurante:</label>
+                <textarea rows="4" placeholder="Ingrese sus datos aquí"></textarea>
+              </div>
+            
+              <div class="contacto__p2__selec1">
+                <label>¿Quiere aparecer al inicio ?:</label>
+                <select>
+                  <option value="opcion1">Si</option>
+                  <option value="opcion2">No</option>  
+                </select>
+              </div>
+            
+              <div class="contacto__p2__selec2">
+                <label>¿Esta recién empezando con su negocio?:</label>
+                <select>
+                  <option value="opcion1">Si</option>
+                  <option value="opcion2">No</option>
+                </select>
+              </div>
+            
+              <div class="contacto__p2__select3">
+                <label>¿Tiene pagina web su negocio?:</label>
+                <select>
+                  <option value="opcion1">Si</option>
+                  <option value="opcion2">No</option>
+                </select>
+              </div>
+        </div>
+      
+        
+      
+        
+      </form>
+     <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
