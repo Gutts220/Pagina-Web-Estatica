@@ -1,3 +1,16 @@
+.btn {
+  background-color: #ffffff; /* Color naranja */
+  color: #ee9126; /* Color del texto */
+  border: none; /* Eliminamos los bordes predeterminados */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 10px 20px; /* Espacio entre el texto y el borde */
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #ffad61; /* Cambiar el color al pasar el mouse */
+}
+
 /*codigo de lugares recomendados y comida*/
 .negocio {
   display: grid;
@@ -51,16 +64,38 @@
   }
   .negocio h3 {
     font-size: 24px;
+    display: block;
+  }
+  .negocio__star {
+    display: block;
   }
   .negocio__contenido {
     flex-direction: column;
     max-width: none;
   }
   .negocio__contenido__imagen {
+    flex: 0 0 200px;
     margin-right: 0;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   .negocio__contenido__p {
     margin-left: 0;
   }
+}
+
+.selectores .form-select {
+  color: #ee9126;
+}
+.selectores button {
+  background-color: #ffffff; /* Color naranja */
+  color: #ee9126; /* Color del texto */
+  border: none; /* Eliminamos los bordes predeterminados */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 10px 20px; /* Espacio entre el texto y el borde */
+  font-size: 16px;
+  cursor: pointer;
+}
+.selectores button:hover {
+  color: #ffffff;
+  background-color: #ee9126; /* Cambiar el color al pasar el mouse */
 }/*# sourceMappingURL=main.css.map */

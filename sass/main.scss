@@ -1,3 +1,17 @@
+.btn{
+  background-color: #ffffff; /* Color naranja */
+  color: #ee9126; /* Color del texto */
+  border: none; /* Eliminamos los bordes predeterminados */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 10px 20px; /* Espacio entre el texto y el borde */
+  font-size: 16px;
+  cursor: pointer;
+
+    &:hover {
+    background-color: #ffad61; /* Cambiar el color al pasar el mouse */
+    }
+}
+
 
 // codigo de lugares recomendados y comida
 /*codigo de lugares recomendados y comida*/
@@ -65,15 +79,25 @@
 
     h3 {
       font-size: 24px;
+      display: block;
+
+      
     }
+
+    &__star{
+      display: block;
+
+    }
+    
 
     &__contenido {
       flex-direction: column;
       max-width: none;
 
       &__imagen {
+        flex: 0 0 200px;
         margin-right: 0;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
       }
 
       &__p {
@@ -82,3 +106,25 @@
     }
   }
 }
+.selectores{
+  .form-select{
+    color: #ee9126;
+  }
+  button{
+    background-color: #ffffff; /* Color naranja */
+    color: #ee9126; /* Color del texto */
+    border: none; /* Eliminamos los bordes predeterminados */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espacio entre el texto y el borde */
+    font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+      color: #ffffff;
+      background-color: #ee9126; /* Cambiar el color al pasar el mouse */
+    }
+  }
+}
+
+
+
