@@ -1,14 +1,14 @@
 .btn{
-  background-color: #ffffff; /* Color naranja */
-  color: #ee9126; /* Color del texto */
-  border: none; /* Eliminamos los bordes predeterminados */
-  border-radius: 10px; /* Bordes redondeados */
-  padding: 10px 20px; /* Espacio entre el texto y el borde */
+  background-color: #ffffff; 
+  color: #ee9126; 
+  border: none; 
+  border-radius: 10px; 
+  padding: 10px 20px; 
   font-size: 16px;
   cursor: pointer;
 
     &:hover {
-    background-color: #ffad61; /* Cambiar el color al pasar el mouse */
+    background-color: #ffad61; 
     }
 }
 
@@ -111,17 +111,17 @@
     color: #ee9126;
   }
   button{
-    background-color: #ffffff; /* Color naranja */
-    color: #ee9126; /* Color del texto */
-    border: none; /* Eliminamos los bordes predeterminados */
-    border-radius: 10px; /* Bordes redondeados */
-    padding: 10px 20px; /* Espacio entre el texto y el borde */
+    background-color: #ffffff; 
+    color: #ee9126; 
+    border: none; 
+    border-radius: 10px; 
+    padding: 10px 20px; 
     font-size: 16px;
     cursor: pointer;
 
     &:hover {
       color: #ffffff;
-      background-color: #ee9126; /* Cambiar el color al pasar el mouse */
+      background-color: #ee9126; 
     }
   }
 }
