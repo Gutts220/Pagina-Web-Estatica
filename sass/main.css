@@ -1,17 +1,3 @@
-.btn {
-  background-color: #ffffff; /* Color naranja */
-  color: #ee9126; /* Color del texto */
-  border: none; /* Eliminamos los bordes predeterminados */
-  border-radius: 10px; /* Bordes redondeados */
-  padding: 10px 20px; /* Espacio entre el texto y el borde */
-  font-size: 16px;
-  cursor: pointer;
-}
-.btn:hover {
-  background-color: #ffad61; /* Cambiar el color al pasar el mouse */
-}
-
-/*codigo de lugares recomendados y comida*/
 .negocio {
   display: grid;
   grid-template-areas: "t3" "contenido3";
@@ -87,15 +73,86 @@
   color: #ee9126;
 }
 .selectores button {
-  background-color: #ffffff; /* Color naranja */
-  color: #ee9126; /* Color del texto */
-  border: none; /* Eliminamos los bordes predeterminados */
-  border-radius: 10px; /* Bordes redondeados */
-  padding: 10px 20px; /* Espacio entre el texto y el borde */
+  background-color: #ffffff;
+  color: #ee9126;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
 }
 .selectores button:hover {
   color: #ffffff;
-  background-color: #ee9126; /* Cambiar el color al pasar el mouse */
+  background-color: #ee9126;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  width: 600px;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 300px;
+  contain: content;
+  background-color: #ee9126;
+}
+.contacto h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.contacto__top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+.contacto__check, .contacto__radio {
+  flex: 1;
+}
+.contacto .form-check {
+  display: flex;
+  align-items: center;
+}
+.contacto .form-label {
+  margin-left: 10px;
+}
+.contacto .form-control {
+  width: 100%;
+  padding: 10px;
+}
+.contacto button {
+  background-color: #ffffff;
+  color: #ee9126;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+}
+.contacto button:hover {
+  color: #ffffff;
+  background-color: #a36217;
+}
+@media only screen and (max-width: 480px) {
+  .contacto .contacto {
+    max-width: 100%;
+  }
+  .contacto .contacto .form-control,
+  .contacto .contacto button {
+    font-size: 16px;
+  }
+  .contacto .contacto__top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacto .contacto__check, .contacto .contacto__radio {
+    flex: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }/*# sourceMappingURL=main.css.map */

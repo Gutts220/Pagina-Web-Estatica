@@ -1,20 +1,4 @@
-.btn{
-  background-color: #ffffff; 
-  color: #ee9126; 
-  border: none; 
-  border-radius: 10px; 
-  padding: 10px 20px; 
-  font-size: 16px;
-  cursor: pointer;
-
-    &:hover {
-    background-color: #ffad61; 
-    }
-}
-
-
 // codigo de lugares recomendados y comida
-/*codigo de lugares recomendados y comida*/
 .negocio {
     display: grid;
     grid-template-areas:
@@ -106,6 +90,9 @@
     }
   }
 }
+
+// Codigo css de selectores para busqueda
+
 .selectores{
   .form-select{
     color: #ee9126;
@@ -126,5 +113,89 @@
   }
 }
 
+//Codigo de pagina de Contacto
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  width: 600px;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 300px;
+  contain: content;
+  background-color: #ee9126;
 
 
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  &__top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  &__check,
+  &__radio {
+    flex: 1;
+  }
+
+  .form-check {
+    display: flex;
+    align-items: center;
+  }
+
+  .form-label {
+    margin-left: 10px;
+  }
+
+  .form-control{
+    width: 100%;
+    padding: 10px;
+  }
+  button {
+    background-color: #ffffff; 
+    color: #ee9126; 
+    border: none; 
+    border-radius: 10px; 
+    padding: 10px 20px; 
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+      color: #ffffff;
+      background-color: #a36217; 
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .contacto {
+      max-width: 100%;
+  
+
+      .form-control,
+      button {
+        font-size: 16px;
+      }
+
+      &__top {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      &__check,
+      &__radio {
+        flex: none;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
