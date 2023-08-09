@@ -49,8 +49,14 @@
         &__imagen {
             flex: 0 0 300px; 
             margin-right: 30px;
-            max-width: 100%;
-        }
+            max-width: 400px;
+            max-height: 300px;
+            & img{
+              max-width: 100%;
+              max-height: 90%;
+              display: block;
+            }
+          }
   
         &__p {
             flex: 1;
